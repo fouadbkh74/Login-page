@@ -1,0 +1,107 @@
+/* Styles généraux */
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(25, 69, 119, 0.9);
+
+}
+
+/* Conteneur centré */
+.container {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Bordure semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(224, 106, 0, 0.5); /* Ombre légère */
+    background: rgba(25, 69, 119, 0.85); /* Fond bleu semi-transparent */
+}
+
+
+/* Titre */
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Labels et champs */
+label {
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* Style bouton */
+.btn input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn input[type="submit"]:hover {
+    background-color: #e06a00;
+}
+
+/* Lien "Forget password?" */
+.frl {
+    text-align: right;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff8715;
+}
+
+/* Message d'inscription */
+.btn p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    color: white;
+}
+.usern, .paswrd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.usern input, .paswrd input {
+    width: 95%; /* Ajuste la largeur des champs */
+    padding: 10px; /* Ajoute de l'espace à l'intérieur */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
